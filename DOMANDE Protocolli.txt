@@ -1,0 +1,479 @@
+106­Quale tra i seguenti è l'identificativo di un autonomous system?
+○ 127.0.0.1
+○ 141.250.0.0
+○ 78 XXXXXXXXXXXXXXXX
+○ 141.250.255.255
+
+107. Quali tra le seguenti sono caratteristiche della tecnica dello Scrambling:
+○ è adatto a trasmissione su breve distanza
+○ è adatto a trasmissione su lunga distanza X
+○ fa uso di registri a riciclo
+○ evita che regole di codifica mescolino i bit
+○ è utilizzata nella codifica 2B1Q di ISDN e HDLC X
+○ i bit da spedire vengono aumentati
+
+108. Quali tra le seguenti sono caratteristiche delle reti WLAN:
+○ Copertura di aree pubbliche tramite uso di hotspot X
+○ Lo spettro radio sostituisce il cavo X
+○ Solitamente in fibra ottica
+○ Velocità di 140Mbps e 20 MHz di canale
+○ I DTE possono essere molto distanti tra di loro
+○ Tipicamente reti da interno o interconnessione di edifici X
+
+109. Durante la 3­way handshake:
+○ Il client manda il suo ISN, il server lo incrementa e spedisce il proprio X
+○ Il client manda il suo ISN, chiede quello del server che glielo spedisce
+incrementato di uno
+○ Il client manda il suo ISN, il server lo incrementa e a sua volta spedisce il proprio
+ISN che non verrà incrementato X
+○ Alla fine abbiamo i due ISN iniziali entrambi incrementati di uno
+○ Sull'ultimo pacchetto il flag di SYN è settato a 0 e quello di ACK a 1
+
+110. Quali tra le seguenti sono caratteristiche del bit stuffing nella trasmissione
+orientata al bit?
+○ è una tecnica applicata a tutti i bit trasmessi 
+○ è una tecnica che evita che il flag byte possa essere simulato dai dati trasmessi 
+○ è una tecnica che evita che un idle byte possa essere simulato dai dati trasmessi X
+○ forza l'inserimento di uno 0 dopo 5 bit a 1  X
+○ forza l'inserimento di uno 1 dopo 5 bit a 0 
+○ è una tecnica applicata solo al contenuto della trama X
+
+111. Che cosa è un exterior router?
+○ Un router che isola i bastion­host nella DMZ ed il traffico verso la rete interna.
+○ Un router che non può reindirizzare le richieste in entrata verso i server nella DMZ X
+○ Un router che non effettua packet filtering 
+
+112. A quale livello OSI appartiene il protocollo ICMP?
+○ network X
+○ data­link
+○ transport
+
+113. Quali tra i seguenti standard appartengono a tecnologie di comunicazioni
+mobili di quarta generazione:
+○ GSM
+○ GPRS
+○ EDGE
+○ LTE X
+○ UMTS 
+○ WIMAX X
+
+114. Quali tra le seguenti sono caratteristiche delle reti LAN:
+○ i DTE possono essere molto distanti tra di loro
+○ solitamente utilizza un solo tipo di mezzo trasmissivo X
+○ è possibile che ci siano DTE che fungono da server X
+○ uso di linea telefonica 
+○ ad alta velocità per interconnettere centrali tra differenti quartieri
+○ velocità da qualche Mbps a migliaia di Mbps (Gbps) X
+
+115. Quali tra le seguenti sono caratteristiche della tecnologia SDH
+(Synchronous Digital Hierarchy)?
+○ in SDH due unità sono perfettamente sincronizzate X
+○ in SDH due unità sono sincronizzate, ma non perfettamente 
+○ usato per la trasmissione di fonia e dati su rete elettrica X
+○ fornisce ad ogni utente una capacità variabile nel tempo che, se libera, può
+essere usata da altri utenti
+○ è un protocollo a livello Fisico X
+○ è un protocollo a livello Data Link 
+
+116. Per ricavare il numero opportuno di livelli di tensione da usare in un
+canale telefonico data la larghezza di banda occorre:
+○ Fase 1: Applicare prima il teorema di Shannon per valutare il massimo data rate X
+○ Fase 1: Applicare prima il teorema di Nyquist per valutare il massimo data rate
+○ Fase 2: Sostituire il massimo data rate per ricavare il numero di livelli di tensione
+da Shannon
+○ Fase 2: Sostituire il massimo data rate per ricavare il numero di livelli di tensione
+da Nyquist X
+○ è impossibile calcolare il numero di livelli di tensione
+
+117. Quando è consigliato un routing statico?
+○ Nel caso di reti completamente isolate da altre reti X
+○ Nel caso di reti con più di una via possibile per una stessa destinazione
+○ Nel caso di reti con un numero limitato di gateway X
+
+118. 119­A quale livello della pila ISO/OSI lavorano i proxy services?
+○ 7 ma anche 3
+○ 2
+○ 3
+○ 7 X
+
+119. "inetd":
+○ Non è uno strumento per l'host­hardening 
+○ Permette di limitare il numero di richieste di servizi
+○ E' implementato attraverso il software "inetd" 
+○ E' implementato attraverso il software "xinetd"
+○ Non permette di limitare le connessioni per la richiesta di servizi internet
+○ Permette di redirigere le richieste verso altre macchine 
+
+120. Quali tra le seguenti sono codifiche di canale utilizzate per la trasmissione
+e sincronizzazione dei bit:
+○ EVM
+○ AMI X
+○ RZ X
+○ NRZ X
+○ SNR
+○ Manchester  X
+
+In reti ad elaborazione concentrata o distribuita il trasferimento
+dell''informazione tra DTE può dare luogo a procedure di colloquio:
+○ Elaborativo
+○ Conversazionale X
+○ Riflessivo
+○ Inquiry X
+○ Reciproco 
+○ Interattivo X
+
+122. Un proxy server:
+○ Reindirizza le richieste in base a criteri a livello applicazione X
+○ Controlla cosa un utente sta facendo X
+○ Effettua packet filtering anche a livello ISO/­OSI 2
+○ Può prendere decisioni diverse per operazioni all'interno della stessa
+connessione X
+○ Non può prendere decisioni diverse per operazioni all'interno della stessa
+connessione 
+
+123. Quali tra le seguenti sono caratteristiche della tecnologia PDH
+(Plesiochronous Digital Hierarchy)?
+○ in PDH due unità sono perfettamente sincronizzate
+○ in PDH due unità sono sincronizzate, ma non perfettamente X
+○ ogni volta che si vuole estrarre un canale bisogna disaggregarlo X
+○ permette di trasmettere insieme diversi flussi di dati a bit rate leggermente
+differenti X
+○ permette di monitorare le prestazioni della rete
+○ garantisce buone performance per trasferimento contemporaneo di audio, video e
+dati 
+
+124. Che cosa è un socket?
+○ L'identificativo di un'interfaccia di rete
+○ Una combinazione indirizzo IP e numero di protocollo di trasporto X
+○ Un identificativo di una specifica sessione di un'applicazione
+
+125. Quali tra i seguenti possono essere tipi di modem interni:
+○ PCI X
+○ USB
+○ PCMCIA X
+○ paralleli
+○ seriali
+○ nessuno dei tipi
+
+126. Quali tra i seguenti comandi RIP annunciano la sottorete di confine su un
+router che collega tale sottorete alle altre sottoreti interne?
+○ export proto rip{ proto direct; metric 2;... X
+○ export proto ospf{ proto rip{....
+○ export proto rip{ proto ospf {network 0.0.0.0;...metric 1;... 
+
+127. Cosa NON può fare un Internet firewall?
+○ Proteggere gli host da virus e da attaccanti remoti X
+○ Loggare tutto il traffico
+○ Limitare l'esposizione su internet dell'organizzazione interna
+
+128. Quali tra le seguenti sono topologie di rete:
+○ a maglia X
+○ a ramo
+○ a quadrato
+○ a dorsale X
+○ ad anello X
+○ ad astro 
+
+129. Che cosa è un bastion host?
+○ Un host dove non ha senso praticare l'host­hardening.
+○ Un host cui sono indirizzate le richieste di servizi dall'esterno e quindi esposto a
+pericoli X
+○ Un host speciale che effettua packet filtering e protezione da virus.
+
+130. Quale tra i seguenti comandi è utilizzato per definire un routing minimale?
+○ ifconfig eth1 141.250.1.7 netmask 255.255.255.0 broadcast 141.250.1.255 up X
+○ route ­n add 141.250.2.0 141.250.1.3 1
+○ propagate proto rip interface 141.250.1.3
+
+131. Quale fra i seguenti indirizzi indica una route aggiunta da una ICMP
+redirect nella tabella di routing?
+○ 141.250.1.0 141.250.1.7 UGH
+○ 127.0.0.1 127.0.0.1 UH 
+○ default 141.250.1.7 UG
+○ 141.250.1.0 141.250.1.3 UGHD X
+
+U	Attiva (Up)	Indica che la rotta è attiva e che l'interfaccia di rete associata è operativa.
+G	Gateway		Indica che la rotta passa attraverso un gateway (per esempio, un router) per raggiungere la destinazione.
+H	Host		Indica che la rotta è specifica per un host (un singolo indirizzo IP) piuttosto che per una rete intera.
+D	Apprendimento 	dinamico	Indica che la rotta è stata appresa dinamicamente tramite un protocollo di routing (es. RIP, OSPF, BGP).
+M	Modificata	Indica che la rotta è stata modificata da un protocollo di routing dinamico.
+R	Rifiutata 	(Reject)	Indica che la rotta è rifiutata, quindi i pacchetti verso quella destinazione vengono scartati.
+C	MemorInCache	Indica che la rotta è memorizzata nella cache per ottimizzare l'accesso futuro.
+S	Statica		Indica che la rotta è stata configurata manualmente dall'amministratore e non cambia dinamicamente.
+
+
+132. Nella modulazione digitale a quattro fasi i bit del segnale dati vengono
+riuniti:
+○ non vengono riuniti, ma sono presi singolarmente
+○ a coppie X
+○ a terne
+○ a quaterne
+○ ad ottetti
+
+133. Quale tra i seguenti comandi è utilizzato per definire un routing dinamico
+tra AS?
+○ export proto rip{ interface all; proto ospf; …
+○ export proto egp as 149{proto ospf{network … X
+○ route ­n add 141.250.1.0 141.250.1.7 3 
+○ ifconfig 141.250.1.5 netmask 255.255.255.0 broadcast 141.250.1.255
+
+134. A quale livello della pila ISO/OSI viene effettuato packet filtering?
+○ 2
+○ 3 X
+○ 7 
+
+135. Il jitter:
+○ indica il tempo necessario ad un messaggio per arrivare a destinazione
+○ indica la velocità a cui si possono spedire dati (in bit/s) su una rete reale
+○ indica la massima velocità teorica del collegamento
+○ esprime quanti simboli vengono trasmessi al secondo in un sistema di
+comunicazione numerico 
+○ esprime la variabilità del ritardo con cui i pacchetti vengono consegnati in
+ricezione X
+
+136. Attraverso un’interfaccia è possibile scoprire automaticamente la netmask
+usata in quella rete?
+○ No
+○ Si, con un tipo di messaggio del protocollo ICMP X
+○ Si, solo se la rete è di tipo Ethernet
+
+137. La figura rappresenta una modulazione di tipo:
+○ PAM
+○ PCM
+○ PPM X
+○ PWM
+○ nessuna delle risposte date sopra
+
+
+138. Si vogliono negare solo le nuove connessioni ssh provenienti dall’ip
+192.168.1.2. La miglior scelta è: S
+○ iptables ­A FORWARD ­p tcp ­s 192.168.1.2 ­­syn ­­dport 22 ­j DROP
+○ iptables ­A INPUT ­p tcp ­s 192.168.1.2 ­­syn ­­dport 22 ­j DROP X
+○ iptables ­A INPUT ­p tcp ­s 192.168.1.2 ­­dport 22 ­j DROP 
+○ iptables _A INPUT ­s 192.168.1.2 ­­dport 22 ­j REJECT
+
+139. Il throughput:
+○ indica il tempo necessario ad un messaggio per arrivare a destinazione
+○ indica la velocità a cui si possono spedire dati (in bit/s) su una rete reale X
+○ indica la massima velocità teorica del collegamento
+○ esprime quanti simboli vengono trasmessi al secondo in un sistema di
+comunicazione numerico
+○ esprime la variabilità del ritardo con cui i pacchetti vengono consegnati in
+ricezione
+
+140. La figura rappresenta un segnale:
+○ modulato in ampiezza X
+○ modulato in frequenza
+○ modulato in fase
+○ modulato in frequenza e fase
+○ modulato in ampiezza e fase
+
+141. L’indirizzo IP 146.179.41.195 con subnet mask 255.255.255.224 cosa
+identifica? S
+○ host 7 della sottorete 41.128 della rete 146.179
+○ host 3 della sottorete 41.192 della rete 146.179 X
+○ host 195 della sottorete 41 della rete 146.179
+
+142. In una modulazione di frequenza FSK, la scelta delle due frequenze deve
+essere fatta tenendo presente di:
+○ occupare quanta più banda possibile
+○ limitare l’occupazione della banda X
+○ mantenere il periodo relativo alle due sinusoidi maggiore della frequenza di bit
+dell’informazione digitale
+○ ottenere una sufficiente separazione tra le due frequenze in modo da evitare
+l’interfaccia intersimbolica X
+○ evidenziare le differenze di fase delle portanti per una migliore distinzione dei
+cambiamenti 
+○ mantenere una continuità di fase nelle variazioni di stato X
+
+143. Cosa può fare un internet firewall?
+○ Proteggere le reti interne da possibili intrusioni provenienti dall’esterno X
+○ Proteggere le reti interne dagli utenti definiti in esse ed effettuare il logging sul
+traffico X
+○ Proteggere gli host da virus e da attacchi remoti
+
+144. Quali tra le seguenti caratteristiche sono caratteristiche dell’interfaccia
+RS232? 
+○ interfaccia parallela
+○ interfaccia seriale X
+○ il connettore sul computer può essere di tipo a 25 poli femmina
+○ il connettore sul computer può essere di tipo a 25 poli maschio X 
+○ il connettore sul computer può essere di tipo a 9 poli maschio X
+○ è completamente Plug and Play 
+
+145. Che cosa è un dual­homed host?
+○ Una workstation con due accessi Home per l’amministrazione: uno da tastiera e
+uno dalla seriale
+○ Un host con due o più NIC con la funzione di instradamento che può essere attiva
+o non attiva X
+○ Un ‘bastion host’ che ospita due servizi distinti (es. www e smtp)  
+
+146. L’indirizzo IP di rete 126.0.0.0 a quale classe appartiene?
+○ classe C
+○ classe B 
+○ classe A X
+
+147. Quali fra i seguenti sono indirizzi di sottorete se si applica come subnet
+mask 255.255.248.0? M
+○ 66.34.100.0
+○ 66.34.20.0 
+○ 66.34.40.0 X
+○ 66.34.216.0 X
+
+148. Se un segnale trasmette da 1.7KHz a 5.2 KHz, la sua larghezza di banda
+sarà: S
+○ 500Hz
+○ 1700Hz 
+○ 3500Hz X
+○ 5200Hz 
+○ 6900Hz
+
+149. Su quali informazioni si può basare il packet filtering con iptables?
+○ ip sorgente e destinazione e interfaccia di rete su cui passa il pacchetto X
+○ Tipo di sistema operativo del client che richiede un servizio
+○ Tipo di messaggio del protocollo TCP X
+○ tipo di protocollo (TCP,UDP o ICMP) X
+○ username dell’utente che ha stabilito la connessione e GID
+
+150. In ambito telefonico si definiscono canali ideali:
+○ canali senza distorsioni o ritardi nella propagazione del segnale 
+○ canali con solo un ritardo costante nella propagazione del segnale X
+○ canali con attenuazioni e ritardi in funzione della frequenza dei segnali
+○ canali che correggono tutti i problemi riscontrati nella propagazione del segnale
+○ nessuna delle definizioni precedenti
+
+151. Che cosa è uno screening router?
+○ Un router che monitorizza la rete
+○ Un router che effettua packet filtering X
+○ Un router che effettua packet filtering e fornisce servizi web
+
+152. Le tabelle definite in iptables di default sono:
+○ La filter, la nate e la mangle 
+○ La tabella filter per il packet filtering e la tabella nat per il NAT 
+○ La tabella filter X
+
+153. I principali tipi di modulazione impulsiva sono:
+○ AM
+○ PAM X
+○ PWM X
+○ PM 
+○ PPM X
+○ PCM X
+
+154. La modulazione QAM si ottiene combinando tra loro quali fra le seguenti
+tecniche di modulazione?
+○ ASK X
+○ FSK 
+○ PSK X
+○ PWM
+○ PPM
+○ PCM 
+
+155. Quale livello del modello ISO/OSI è chiamato presentation?
+○ 6 X
+○ 5
+○ 2
+
+156. In una trasmissione sincrona vengono usati:
+○ l’invio ripetuto di 1 in stato idle 
+○ lo start­bit
+○ lo stop­bit
+○ il carattere SYN X
+○ il segnale di clock 
+○ blocchi per raggruppare i caratteri da trasmettere X
+
+157. Quali tra i seguenti sono standard della videocomunicazione:
+○ H.320 X
+○ T.320 
+○ H.323 X
+○ T.323
+○ H.120
+○ T.120 X
+
+158. Si vuole consentire la richiesta di contenuti web al server 138.26.26.80, la
+miglior scelta è: S
+○ iptables ­A INPUT ­p tcp ­­dport 80 ­j ACCEPT
+○ iptables ­A INPUT ­to 138.26.26.80 ­p tcp ­­dport 80 ­j ACCEPT e iptables ­A
+INPUT ­to 138.26.26.80 ­p tcp ­­dport 443 ­j ACCEPT X
+○ iptables ­A OUTPUT ­to 138.26.26.80 ­j ACCEPT
+○ iptables ­A INPUT ­p tcp ­­dport 8008 ­j ACCEPT
+
+159. In una 64­QAM ad una velocità di trasmissione di 19200 bps corrisponde
+una velocità di modulazione di: S
+○ 300 baud
+○ 640 baud
+○ 2400 baud
+○ 3200 baud X
+○ 19200 baud
+
+160. Cosa è la tecnica della Multiplazione?
+○ una tecnica che permette di inviare ripetutamente una certa comunicazione
+○ una tecnica che permette di inviare a molti destinatari una certa comunicazione 
+○ una tecnica che separa un pacchetto dati in più pacchetti più piccoli 
+○ una tecnica che prevede l'utilizzo di più canali per una comunicazione 
+○ una tecnica che prevede l'utilizzo di uno stesso canale per più comunicazioni
+separate X
+
+161. Quali tra le seguenti sono caratteristiche dell''algoritmo a Controllo di
+Ridondanza Ciclica per il rilevamento degli errori:
+○ associa ogni sequenza di k bit a coefficienti di un polinomio di grado k­-1 X
+○ associa ogni sequenza di k bit a coefficienti di un polinomio di grado k+1 
+○ associa ad ogni sequenza il checksum ottenuto come resto della divisione tra
+due polinomi X
+○ associa ad ogni sequenza il checksum ottenuto come risultato della divisione di
+due polinomi 
+○ la bontà dell'algoritmo non dipende dal polinomio generatore 
+○ la bontà dell'algoritmo dipende dal polinomio generatore X
+
+162. Quale livello del modello ISO/OSI è chiamato session?
+○ 7
+○ 6
+○ 5 X
+
+163. Quali tra le seguenti sono caratteristiche dell''Accesso Base (BRI) della
+rete ISDN?
+○ utilizza a livello 2 il protocollo LAPD X
+○ necessita di conversioni Analogico/Digitale
+○ utilizza il centralino ISPBX 
+○ supporta 30 linee multiplate, un canale di controllo ed uno di sincronizzazione
+○ lavora in Modalità Asincrona Bilanciata X
+○ ha 2 canali per fonia/dati chiamati B e 1 di controllo detto D X
+
+164. Quali tra le seguenti sono modalità in cui opera il protocollo HDLC (High
+Level Data Link Control)?
+○ ABM X
+○ ARM X
+○ ATM 
+○ NRM X
+○ PCM
+○ PWM
+
+165. Quale tra i seguenti apparati di rete opera a livello 4 o 7 OSI?
+○ Router
+○ Gateway X
+○ Switch
+
+166. Che cosa identifica un numero di porta?
+○ Un servizio a livello 7 OSI X
+○ Un protocollo di rete a livello 4 OSI 
+○ Un protocollo di routing di internet 
+
+167. In una modulazione con tecnica PCM cosa è rappresentato nel grafico c) di
+figura:
+○ il treno di impulsi portante
+○ il segnale telefonico di partenza
+○ la fase di campionamento 
+○ i campioni del segnale da trasmettere  X
+○ il segnale campionato e quantizzato  
+
+168. Nel flusso trasmissivo Half Duplex tra mittente e destinatario:
+○ solo uno dei dispositivi può spedire informazione mentre l'altro dispositivo può
+solo ricevere 
+○ ogni dispositivo può sia trasmettere che ricevere, ma non contemporaneamente X
+○ entrambi i dispositivi possono spedire e ricevere l'informazione
+contemporaneamente
+○ tutti e due i dispositivi possono ricevere, ma non possono trasmettere
+○ entrambi i dispositivi possono solo ricevere
+
+
+
