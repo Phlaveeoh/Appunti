@@ -34,13 +34,13 @@
   * Sistema su un chip per smartphone e palmari
 
 ### Ciclo Fetch-Execute
-![Ciclo Fetch-Execute](/resource/fetch-execute.png)
+![Ciclo Fetch-Execute](/Sistemi%20Operativi/resource/fetch-execute.png)
 
 ### Interruzioni
 Permettono di interrompere dil ciclo fetch-execute
 
 #### Fetch-Execute con Interruzioni
-![Fetch-Execute con Interruzioni](/resource/fetch-execute-interruzioni.png)
+![Fetch-Execute con Interruzioni](/Sistemi%20Operativi/resource/fetch-execute-interruzioni.png)
 
 #### Vantaggi
 * evitano di lasciare la cpu in attesa
@@ -152,7 +152,7 @@ Possiede:
 >Un programma può avere quindi più processi
 
 ### Gli Stati del Processo
-![Stati del Processo](/resource/stadi-processo.png "Stati del Processo")
+![Stati del Processo](/Sistemi%20Operativi/resource/stadi-processo.png "Stati del Processo")
 * Nuovo
 * Esecuzione
 * Attesa
@@ -279,7 +279,7 @@ La velocità relativa dei processi **NON** è prevedibile.
 Si verifica quando più processi o thread leggono e scrivono dati in modo che il risultato dipenda dall'ordine di esecuzione delle istruzioni dei processi.
 
 ### Gradi di Consapevolezza
-![Gradi di Consapevolezza](/resource/gradi-consapevolezza.png "Gradi di Consapevolezza")
+![Gradi di Consapevolezza](/Sistemi%20Operativi/resource/gradi-consapevolezza.png "Gradi di Consapevolezza")
 
 #### Competizione per le risorse
 Processi in conflitto tra loro per l'accesso alle risorse.
@@ -322,9 +322,9 @@ Rallenta il sistema
 * Compare and Swap
 
 ### Algoritmo di Dekker
-![Algoritmo di Dekker](/resource/algoritmo-dekker.png "Algoritmo di Dekker")
+![Algoritmo di Dekker](/Sistemi%20Operativi/resource/algoritmo-dekker.png "Algoritmo di Dekker")
 ### Algoritmo di Peterson
-![Algoritmo di Peterson](/resource/algoritmo-peterson.png "Algoritmo di Peterson")
+![Algoritmo di Peterson](/Sistemi%20Operativi/resource/algoritmo-peterson.png "Algoritmo di Peterson")
 
 ### Semafori
 
@@ -462,7 +462,7 @@ Svantaggi:
 * Overhead
 
 ### In Sintesi
-![Approcci Stallo](/resource/approcci-stallo.png "Approcci Stallo")
+![Approcci Stallo](/Sistemi%20Operativi/resource/approcci-stallo.png "Approcci Stallo")
 
 ### Strategia Integrata
 Raggruppare le risorse in classi ed usare l'assegnazione ordinata per prevenire attesa circolare tra i processi.  
@@ -515,7 +515,7 @@ Obsoleto, non prevede la memoria virtuale e le partizioni possono essere:
 #### Buddy System
 Funge da compromesso tra le partizioni fisse e dinamiche
 
-![Buddy System](/resource/buddy-system.png "Buddy System")
+![Buddy System](/Sistemi%20Operativi/resource/buddy-system.png "Buddy System")
 
 #### Indirizzi
 * Indirizzo logico
@@ -589,10 +589,10 @@ Stato in cui il sistema spende la maggior parte del suo tempo nel caricamento e 
 * Nel linguaggio comune, il termine memoria virtuale si riferisce alla paginazione dinamica.
 * Ogni processo ha una tabella delle pagine
 
-![Paginazione dinamica con supporto HW](/resource/paginazione-dinamica-supporto-hw.png "Paginazione dinamica con supporto HW")
+![Paginazione dinamica con supporto HW](/Sistemi%20Operativi/resource/paginazione-dinamica-supporto-hw.png "Paginazione dinamica con supporto HW")
 
 #### Tabella delle pagine invertita
-![Tabella delle pagine invertita](/resource/tabella-pagine-invertita.png "Tabella delle pagine invertita")
+![Tabella delle pagine invertita](/Sistemi%20Operativi/resource/tabella-pagine-invertita.png "Tabella delle pagine invertita")
 
 #### Translation Lookaside Buffer
 * Evita un doppio accesso in memoria a ogni riferimento
@@ -617,14 +617,14 @@ Ogni record della tabella contiene:
 * La lunghezza del segmento
 * Flags "Caricato" e "Modificato"
 
-![Rilocazione Segmentata](/resource/rilocazione-segmentata.png "Rilocazione Segmentata")
+![Rilocazione Segmentata](/Sistemi%20Operativi/resource/rilocazione-segmentata.png "Rilocazione Segmentata")
 
 ### Segmentazione Paginata
 Ibrido tra le due tecniche:
 * Lo spazio logico è diviso in segmenti
 * Ogni segmento è diviso in pagine di dimensione fissa uguale ai frame in memoria principale
 
-![Segmentazione Paginata](/resource/segmentazione-paginata.png "Segmentazione Paginata")
+![Segmentazione Paginata](/Sistemi%20Operativi/resource/segmentazione-paginata.png "Segmentazione Paginata")
 
 #### Protezione e Condivisione
 La segmentazione facilita l’implementazione della protezione e della condivisione
@@ -797,7 +797,7 @@ Rischio di **starvation** per processi lunghi e grande **overhead** per la stima
 Seleziona il processo con il più alto rapporto di risposta (tempo di turnaround normalizzato)
 
 #### In Sintesi
-![Tecniche di Schedulazione](/resource/tecniche-schedulazione.png "Tecniche di Schedulazione")
+![Tecniche di Schedulazione](/Sistemi%20Operativi/resource/tecniche-schedulazione.png "Tecniche di Schedulazione")
 
 ### Schedulazione UNIX tradizionale
 * Ottimizzato per sistemi time-sharing
@@ -871,18 +871,18 @@ Per evitare inefficienze e overhead, può essere utile eseguire trasferimenti di
   * Una linea alla volta
   * Un byte alla volta
 
-![Buffer Singolo](/resource/buffer-singolo.png)
+![Buffer Singolo](/Sistemi%20Operativi/resource/buffer-singolo.png)
 
 #### Doppio Buffer
 * Due buffer assegnati all’operazione di I/O
 * Un processo trasferisce dati da/a un buffer mentre il SO svuota o riempie l’altro (buffer swapping)
 
-![Doppio Buffer](/resource/doppio-buffer.png)
+![Doppio Buffer](/Sistemi%20Operativi/resource/doppio-buffer.png)
 
 #### Buffer Circolare
 Più di due buffer assegnati all’operazione di I/O
 
-![Buffer Circolare](/resource/buffer-circolare.png)
+![Buffer Circolare](/Sistemi%20Operativi/resource/buffer-circolare.png)
 
 ### Parametri di Prestazioni del Disco
 * Tempo di accesso
@@ -936,7 +936,7 @@ Fornisce varie operazioni:
 * Scrittura
 
 ### Architettura del Sistema di Gestione dei File
-![Architettura File System](/resource/architettura-file-system.png)
+![Architettura File System](/Sistemi%20Operativi/resource/architettura-file-system.png)
 
 #### Driver dei Dispositivi
 * Livello più basso
